@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
 
 public class StepDefinitions {
 	private Math math;
-	
+		
 	@Given("^I provide a base value (\\d+)$")
 	public void i_provide_a_base_value(int base) throws Throwable {
 		math = new Math(base);
